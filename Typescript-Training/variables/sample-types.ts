@@ -4,3 +4,4 @@ let lastname: String = "Madapala";
 let grade: number = 98.0;
 
 console.log("the grade of " + firstName + " is " + grade);
+console.log(`the grade of ${firstName} ${lastname} is ${grade}`)
