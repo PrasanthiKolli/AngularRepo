@@ -18,14 +18,14 @@ class Customer{
     }
 
     constructor (first:String,last:String){
-        this.firstName=first;
-        this.lastName=last;
+        this._firstName=first;
+        this._lastName=last;
     }
     
 
 }
 
-let cust= new Customer("girbabu","madapala");
+let cust= new Customer("nirvan","madapala");
 
 console.log(cust.firstName);
 console.log(cust.lastName);
