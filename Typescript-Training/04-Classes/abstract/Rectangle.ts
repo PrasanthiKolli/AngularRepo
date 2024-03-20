@@ -21,4 +21,8 @@ export class Rectangle extends Shape {
     getInfo():String{
         return super.getInfo()+` The length and breadth of rectangle ${this._length} & ${this._breadth} `;
     }
+
+    claculateArea(): number {
+        return this._breadth * this._length;
+    }
 }  

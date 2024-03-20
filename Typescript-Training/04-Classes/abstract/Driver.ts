@@ -14,7 +14,7 @@ let r:Shape = new Rectangle(1,2,23,34);
 let shapes:Shape[]=[c,r];
 
 for(let sh of shapes){
-    console.log(sh.getInfo());
+    console.log(sh.claculateArea());
     console.log("--------------------------------------");
 }
 

@@ -37,6 +37,9 @@ var Circle = /** @class */ (function (_super) {
     Circle.prototype.getInfo = function () {
         return _super.prototype.getInfo.call(this) + "radius of circle is : ".concat(this._radius);
     };
+    Circle.prototype.claculateArea = function () {
+        return Math.PI * this._radius * this._radius;
+    };
     return Circle;
 }(Shape_1.Shape));
 exports.Circle = Circle;

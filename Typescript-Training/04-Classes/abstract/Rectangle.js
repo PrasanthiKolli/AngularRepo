@@ -48,6 +48,9 @@ var Rectangle = /** @class */ (function (_super) {
     Rectangle.prototype.getInfo = function () {
         return _super.prototype.getInfo.call(this) + " The length and breadth of rectangle ".concat(this._length, " & ").concat(this._breadth, " ");
     };
+    Rectangle.prototype.claculateArea = function () {
+        return this._breadth * this._length;
+    };
     return Rectangle;
 }(Shape_1.Shape));
 exports.Rectangle = Rectangle;

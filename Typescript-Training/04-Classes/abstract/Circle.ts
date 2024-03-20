@@ -17,4 +17,8 @@ export class Circle extends Shape{
 
         return super.getInfo()+`radius of circle is : ${this._radius}`
     }
+
+    claculateArea(): number {
+        return Math.PI * this._radius*this._radius ;
+    }
 }
