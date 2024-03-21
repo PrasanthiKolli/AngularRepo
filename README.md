@@ -7,3 +7,5 @@
 # Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
 
  tsc --target ES5 --noEmitOnError Customer.ts
+
+# npm install -g @angular/cli
