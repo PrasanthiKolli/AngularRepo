@@ -8,4 +8,4 @@
 
  tsc --target ES5 --noEmitOnError Customer.ts
 
-# npm install -g @angular/cli
+# npm install -g @angular/cli@14.0.6
